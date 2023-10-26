@@ -1,0 +1,108 @@
+/* .table-wrapper {
+  width: 100%;
+}
+
+.table {
+  display: block;
+  overflow: hidden;
+  table-layout: auto;
+  border-collapse: collapse;
+  box-shadow: 0px 10px 10px #ccc;
+  border-radius: 10px;
+  white-space: nowrap;
+  width: 100em;
+  max-width: 35%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.table thead {
+  background-color: #ccc;
+  color: #222;
+}
+
+.table th {
+  background-color: #ccc;
+}
+.table th,
+.table td {
+  padding: 0.8em;
+}
+
+.table td {
+  border-top: 0.5px solid #ddd;
+  overflow: hidden;
+  text-transform: ellipsis;
+}
+
+.tabrow:hover {
+  background-color: #eee;
+}
+
+.expand {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions svg {
+  cursor: pointer;
+}
+
+.delete-btn {
+  color: #e10d05;
+}
+
+.city {
+  margin-left: 3px;
+} */
+
+/* .table {
+  display: block;
+  overflow: hidden;
+  table-layout: auto;
+  border-collapse: none;
+  box-shadow: 0px 10px 10px #ccc;
+  border-radius: 10px;
+  white-space: nowrap;
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+} */
+/* th {
+  justify-content: center;
+  align-items: center;
+}
+td {
+  width: 50%;
+  height: 50px;
+} */
+
+table th {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  font-weight: bold; /* Bold text */
+  padding: 10px; /* Padding for cell content */
+  text-align: center; /* Text alignment */
+  border: 1px solid #000; /* Border for headers */
+}
+
+/* Optional hover effect */
+table th:hover {
+  background-color: #555;
+}
+
+/* Style the table cells (td) */
+table td {
+  padding: 5px; /* Padding for cell content */
+  border: 1px solid #000; /* Border for cells */
+  text-align: center;
+}
+
+.highlight {
+  background-color: red;
+}

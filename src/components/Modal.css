@@ -1,0 +1,106 @@
+.modal{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.modal{
+    border-radius: 5px;
+    padding: 2rem;
+    /* background-color: white; */
+    width: 50%;
+    /* width: 15em; */
+}
+
+
+.modal{
+    border-radius: 5px;
+    padding: 2rem;
+    width: 25em;
+} 
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 25%;
+  background-color:whitesmoke   ;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: 10px;
+}
+.heading{
+  color: #000 !important;
+  z-index: 999999 !important;
+}
+
+
+
+ .modal .btn {
+    display: block;
+    margin: auto;
+}
+
+.Ititle{
+    float: left;
+}
+
+.error{
+    background-color: #f8d7da;
+    color: #df4759;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+  lable{
+    float: left;
+  }
+
+  .Ititle{
+    margin-top: 5px;
+  }
+
+  .address{
+    display: flex;
+    padding-left: 10px;
+    
+  }
+
+  .state{
+    margin-left: 15px;
+    padding-left: 20px;
+  }
+
+  .city{
+    float: right;
+    justify-content: end;
+    padding-left: 30px;
+  }
+
+  .form-check{
+    margin-left: 60px;
+  }
+
+  .error{
+    background-color: #f8d7da;
+    color: #df4759;
+    padding-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+  }
